@@ -564,24 +564,32 @@
     </script>   
     <!-- Blog Section End -->
 
-    <!-- Contact Form -->
+     <!-- Contact Form -->
 
-    <div class="contact_form_section container" id="contactSection">
-        <div class="contact_bg">
-        <h2 class="contact_form_header">Contact Form</h2>
-        <form class="contact_form">
-            <div class="form_group">
-                <input type="text" class="form_control" placeholder="Name" required>
+     <div class="contact_form_section container">
+        <div class="row contact_bg">
+            <div class=" col-lg-6 col-sm-12">
+                <h2 class="contact_form_header">Get In Touch</h2>
+                <form class="contact_form ">
+                    <div class="form_group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name"  required>
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email"  required>
+                    </div>
+                    <div class="form_group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <button class="contact_form_btn" type="submit">Submit</button>
+                </form>
             </div>
-            <div class="form_group">
-                <input type="email" class="form_control" placeholder="Email" required>
+            <div class="contact_map col-lg-6 col-sm-12">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244256.98150041394!2d96.2793259!3d16.9491832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c18e513a869e9d%3A0xdf37fe68376f630!2sEast%20Dagon%20Township%2C%20Yangon!5e0!3m2!1sen!2smm!4v1713775890194!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="form_group">
-                <textarea class="form_control" placeholder="Message" rows="5" required></textarea>
-            </div>
-            <button class="contact_form_btn" type="submit">Submit</button>
-        </form>
-    </div>
+        </div>
     </div>
     <!-- Contact Form End -->
 
