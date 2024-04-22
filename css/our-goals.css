@@ -1,0 +1,127 @@
+.our_goal_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.our_goal_left_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our_goal_header{
+    font-size: 55px;
+    font-weight: bold;
+    text-align: left;
+    color: #fd0c03;
+}
+
+.our_goal_description{
+    font-size: 17px;
+    width: 70%;
+    color: gray;
+    font-weight: 300;
+
+}
+
+.our_goal_right_section{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+
+
+.goal_img{
+    width: 70px;
+    background-color: #ffc0c0;
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.goal_icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    .our_goal_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .our_goal_left_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .our_goal_header{
+        font-size: 45px;
+        font-weight: bold;
+        text-align: center;
+        color: #fd0c03;
+        margin-bottom: 20px;
+
+    }
+    
+    .our_goal_description{
+        font-size: 17px;
+        width: 100%;
+        color: gray;
+        font-weight: 300;
+        text-align: center;
+    
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .our_goal_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+       
+    }
+    .our_goal_right_section{
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 20px;
+       
+    }
+    .goal_item_text{
+        font-size: 15px;
+    }
+    .goal_img{
+        width: 60px;
+        background-color: #ffc0c0;
+        padding: 15px;
+        border-radius: 25px;
+    }
+    .our_goal_left_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .our_goal_header{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #fd0c03;
+        margin-bottom: 20px;
+    }
+    
+    .our_goal_description{
+        font-size: 15px;
+        width: 100%;
+        color: gray;
+        font-weight: 300;
+        text-align: center;
+    
+    }
+}

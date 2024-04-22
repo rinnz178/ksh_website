@@ -1,0 +1,54 @@
+.blog_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blog_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.blog_img{
+    width: 100%;
+}
+.blog_item{
+    position: relative;
+}
+
+.blog_title{
+    position: absolute; /* Position the background text */
+    bottom: 1; /* At the bottom. Use top:0 to append it to the top */
+    color: #000000; /* Grey text */
+    width: 94.8%; /* Full width */
+    padding: 18px; /* Some padding */
+    font-size: 17px;
+    background-color: #0000001a;
+}
+
+.blog_item_detail{
+    margin-top: 20px;
+}
+
+.blog_pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination_icon{
+    width: 17px;
+}
+
+@media (max-width: 992px) {
+    .blog_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+       
+    }
+
+}

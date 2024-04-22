@@ -1,0 +1,51 @@
+.feature {
+    background-color: #EFEFEF;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.feature_section {
+    padding-left: 12rem;
+    padding-right: 12rem;
+   
+}
+
+.feature_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.tick_icon {
+    width: 17px;
+    margin-right: 10px;
+}
+
+.feature_list {
+    list-style: none;
+}
+.feature_list li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+    .feature_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .feature_header{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+
+    
+}

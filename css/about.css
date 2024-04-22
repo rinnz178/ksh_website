@@ -1,0 +1,59 @@
+.about_us_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.about_us_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.about_us_img{
+    width: 100%;
+}
+.about_us_right{
+    justify-content: start;
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.about_us_chairman{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: start;
+}
+.about_us_btn{
+    background-color: #fd0c03;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border:none;
+    border-radius: 30px;
+}
+.about_us_left{
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+@media (max-width: 992px) {
+    .about_us_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .about_us_img{
+        width: 80%;
+    }
+    .about_us_right{
+        justify-content: start;
+        /* display: flex; */
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+}

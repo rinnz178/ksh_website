@@ -1,0 +1,15 @@
+.contact_form_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.contact_bg{
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
