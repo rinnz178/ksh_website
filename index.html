@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/feature.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 
 
@@ -566,10 +567,10 @@
 
      <!-- Contact Form -->
 
-     <div class="contact_form_section container">
+     <div class="contact_form_section container" >
         <div class="row contact_bg">
             <div class=" col-lg-6 col-sm-12">
-                <h2 class="contact_form_header">Get In Touch</h2>
+                <h2 class="contact_form_header" id="contactSection">Get In Touch</h2>
                 <form class="contact_form ">
                     <div class="form_group">
                         <label for="name">Name</label>
@@ -583,16 +584,45 @@
                         <label for="message">Message</label>
                         <textarea class="form-control" id="message" rows="5" required></textarea>
                     </div>
-                    <button class="contact_form_btn" type="submit">Submit</button>
+                    <div class="contact_btn_container">
+                    <button class="contact_form_btn" type="submit">Submit Form</button>
+
+                    </div>
                 </form>
             </div>
             <div class="contact_map col-lg-6 col-sm-12">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244256.98150041394!2d96.2793259!3d16.9491832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c18e513a869e9d%3A0xdf37fe68376f630!2sEast%20Dagon%20Township%2C%20Yangon!5e0!3m2!1sen!2smm!4v1713775890194!5m2!1sen!2smm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244256.98150041394!2d96.2793259!3d16.9491832!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c18e513a869e9d%3A0xdf37fe68376f630!2sEast%20Dagon%20Township%2C%20Yangon!5e0!3m2!1sen!2smm!4v1713775890194!5m2!1sen!2smm"  loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="google_map"></iframe>
+               
             </div>
         </div>
     </div>
     <!-- Contact Form End -->
 
+    <!-- Footer Section -->
+
+    <footer class="footer_section container-fluid py-5">
+        <div class="row footer_content">
+            <div class="col-md-3">
+                <img src="./assets/icons/icon_logo.png" class="footer_logo" alt="">
+            </div>
+            <div class="col-md-3">
+                <h4>Call us</h4>
+                <p>09-942222222</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Location</h4>
+                <p>No(123),Hlaing Township,Yangon</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Opening hour</h4>
+                <p>Monday-Friday: 9am-5pm</p>
+                <p>Saturday-Sunday: Closed</p>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Footer Section End -->
 </body>
 
 </html>

@@ -1,0 +1,30 @@
+.footer_section{
+    background-color: rgb(255, 255, 255);
+    color: #131313;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+}
+
+.footer_content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer_logo{
+    width: 60px;
+}
+
+@media (max-width: 992px) {
+    .footer_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .footer_logo{
+        margin-bottom: 20px;
+    }
+
+}
