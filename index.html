@@ -58,19 +58,19 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#aboutUsSection">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#serviceSection">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courseSection">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#blogSection">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#contactSection">
                                 <button class="btn btn-danger contact_btn">
                                     Contact
                                 </button>
@@ -87,13 +87,15 @@
     <div class="banner d-flex justify-content-center align-items-center flex-column ">
         <p class="top_title">Your Japanese Language Journey Matters to Us</p>
         <p class="center_title">"Boost Your Japanese Language Skills and Job Opportunities."​</p>
-        <button class="banner_contact_btn">Contact Us</button>
+        <a href="#contactSection">
+            <button class="banner_contact_btn">Contact Us</button>
+        </a>
     </div>
     <!-- Banner Section End -->
 
     <!-- About Us Section -->
 
-    <div class="about_us_section container">
+    <div class="about_us_section container" id="aboutUsSection">
         <h1 class="about_us_header">About Us</h1>
         <div class="about_us_body row">
             <div class="about_us_left col-lg-5 col-sm-12">
@@ -112,9 +114,11 @@
                     soluta nam velit asperiores autem, excepturi vel ipsam. Repudiandae eum, quod eius accusamus
                     reiciendis?
                 </p>
-                <button class="about_us_btn">
-                    Get In Touch
-                </button>
+                <a href="#contactSection">
+                    <button class="about_us_btn">
+                        Get In Touch
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -190,7 +194,7 @@
     <!-- Our Goals Section End -->
 
     <!-- Service Section -->
-    <div class="service_section container">
+    <div class="service_section container" id="serviceSection">
         <h1 class="about_us_header">Our Services</h1>
         <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -280,7 +284,7 @@
     <!-- Service Section End -->
 
     <!-- Courses Section -->
-    <div class="container course_section">
+    <div class="container course_section" id="courseSection">
         <div class="row">
             <h1 class="courses_header">Our Courses</h1>
         </div>
@@ -413,7 +417,7 @@
 
 
     <!-- Blog Section -->
-    <div class="blog_section container">
+    <div class="blog_section container" id="blogSection">
         <h1 class="blog_header">Recent Blog Posts</h1>
         <div class="row blog_row">
             <!-- Blog Item -->
@@ -562,7 +566,7 @@
 
     <!-- Contact Form -->
 
-    <div class="contact_form_section container">
+    <div class="contact_form_section container" id="contactSection">
         <div class="contact_bg">
         <h2 class="contact_form_header">Contact Form</h2>
         <form class="contact_form">
