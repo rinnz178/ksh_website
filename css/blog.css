@@ -18,15 +18,17 @@
 .blog_item{
     position: relative;
 }
-
 .blog_title{
-    position: absolute; /* Position the background text */
-    bottom: 1; /* At the bottom. Use top:0 to append it to the top */
-    color: #000000; /* Grey text */
-    width: 94.8%; /* Full width */
-    padding: 18px; /* Some padding */
+    position: absolute; 
+    bottom: 1; 
+    color: #000000; 
+    width: 94.8%; 
+    padding: 18px; 
+    font: optional; 
+    font-weight: 700;
     font-size: 17px;
-    background-color: #0000001a;
+
+    /* background-color: #0000001a; */
 }
 
 .blog_item_detail{
@@ -43,6 +45,8 @@
 .pagination_icon{
     width: 17px;
 }
+
+
 
 @media (max-width: 992px) {
     .blog_section{

@@ -1,0 +1,44 @@
+.road_map_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+
+.road_map_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.road_map_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.road_map_item_detail{
+    text-align: center;
+}
+
+.road_map_item_icon{
+    width: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .road_map_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 50px;
+        margin-bottom: 20px;
+       
+    }
+    .road_map_item_icon{
+        width: 50px;
+    }
+}

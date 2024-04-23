@@ -1,14 +1,9 @@
-.feature {
-    background-color: #EFEFEF;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
+.feature_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
-
-.feature_section {
-    padding-left: 12rem;
-    padding-right: 12rem;
-   
 }
 
 .feature_header{
@@ -16,36 +11,85 @@
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 30px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
-.tick_icon {
-    width: 17px;
-    margin-right: 10px;
+.feature_item_content{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: #fd0c03;
+    border-width: 2px;
+
 }
 
-.feature_list {
-    list-style: none;
-}
-.feature_list li {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.feature_item_title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 0px;
+    margin-right:20px ;
+    background-color: #fd0c03;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 8px 0px 0px 8px;
 }
 
-@media (max-width: 992px) {
+.feature_item_detail{
+    width: 80%;
+}
+
+@media (max-width: 992px) { 
     .feature_section{
         padding-left: 3rem;
         padding-right: 3rem;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
     }
 
-    .feature_header{
-        text-align: center;
+    .feature_item_title{
         font-size: 30px;
         font-weight: 700;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        text-align: center;
+        padding-left: 0px;
+        margin-right:20px ;
+        background-color: #fd0c03;
+        width: 20%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        border-radius: 8px 0px 0px 8px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .feature_section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
     }
 
-
-    
+    .feature_item_title{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        padding-left: 0px;
+        margin-right:20px ;
+        background-color: #fd0c03;
+        width: 20%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+        border-radius: 8px 0px 0px 8px;
+    }
 }

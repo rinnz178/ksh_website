@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="icon" href="./assets/icons/icon_logo.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,6 +26,7 @@
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/road-map.css">
 
 
 
@@ -39,6 +41,9 @@
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="./assets/icons/icon_logo.png" class="ksh_logo" alt="">
+                <span class="ksh_title">
+                    KSH Group
+                </span>
             </a>
 
             <button class="custom-toggler" style=" border: none;" data-bs-toggle="offcanvas"
@@ -50,7 +55,8 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <img src="./assets/icons/icon_logo.png" class="ksh_logo" alt="">
+                    <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel" class="ksh_title">KSH</h5> -->
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -285,136 +291,109 @@
     <!-- Service Section End -->
 
     <!-- Courses Section -->
-    <div class="container course_section" id="courseSection">
-        <div class="row">
-            <h1 class="courses_header">Our Courses</h1>
-        </div>
-        
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card course_card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Course title</h5>
-                                <p class="card-text">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card course_card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Course title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card course_card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Course title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- add 2 more card here -->
+    <div class="course_section container">
+        <h1 class="about_us_header">Our Courses</h1>
+        <div class="row courses_row">
+            <div class="col-lg-12 col-sm-12 courses_left">
+                <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
+                <div class="left_courses_text">
+                    <h4 class="courses_title">Course Title</h4>
+                    <p class="courses_text_detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In porro cupiditate nobis necessitatibus consequuntur exercitationem sint, maxime dolorum eos aspernatur at aliquid harum fugiat alias repudiandae ratione voluptatem asperiores cumque.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, laborum perspiciatis reiciendis debitis voluptatem repellendus voluptatum omnis ipsum illum nostrum blanditiis dolores, tempore placeat veritatis magni nesciunt, quae iure quas.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum totam facere assumenda perspiciatis ut placeat, quis voluptatum veniam suscipit eligendi porro expedita ex, omnis cupiditate molestias deleniti minima modi dolorem.
+                    </p>
                 </div>
             </div>
-            <div class="tab-pane fade show " id="pills-profile" role="tabpanel" aria-labelledby="pills-home-tab">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card course_card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Course title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card course_card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Course title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card course_card">
-                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Course title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-lg-12 col-sm-12 courses_right">
+                <div class="right_courses_text">
+                    <h4 class="courses_title">Course Title</h4>
+                    <p class="courses_text_detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In porro cupiditate nobis necessitatibus consequuntur exercitationem sint, maxime dolorum eos aspernatur at aliquid harum fugiat alias repudiandae ratione voluptatem asperiores cumque.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, laborum perspiciatis reiciendis debitis voluptatem repellendus voluptatum omnis ipsum illum nostrum blanditiis dolores, tempore placeat veritatis magni nesciunt, quae iure quas.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum totam facere assumenda perspiciatis ut placeat, quis voluptatum veniam suscipit eligendi porro expedita ex, omnis cupiditate molestias deleniti minima modi dolorem.
+                    </p>
                 </div>
+                <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
             </div>
-            
         </div>
-        <div class="pagination_section">
-        <div class="row ">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                        type="button" role="tab" aria-controls="pills-home" aria-selected="true">1</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="false">2</button>
-                </li>
-            </ul>
-        </div>
-    </div>
     </div>
     <!-- Courses Section End -->
 
     <!-- Feature Section -->
-    <div class="feature">
-        <div class="feature_section container">
-            <h1 class="feature_header">Feature of Our Language School</h1>
-            <ul class="feature_list">
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon ">
-                    Internships registered at Kinsu Line Service Co., Ltd. will be carried out by our company.
-                </li>
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon">
-                    You can receive job introductions and interviews for free for up to 6 months.
-                </li>
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon">
-                    Apprentices selected for interview do not need to pay any additional fees for pre-training. Furthermore, departure
-                </li>
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon">
-                    You can participate in advance training until.
-                </li>
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon">
-                    The trainees selected for the interview will be trained at a training center that is equipped like a Japanese workplace.
-                </li>
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon">
-                    You can receive practical training for students.
-                </li>
-                <li>
-                    <img src="./assets/icons/check.png" alt="tick" class="tick_icon">
-                    Monitoring after dispatch
-                </li>
-            </ul>
+    <div class="feature_section container" id="featureSection">
+        <h1 class="feature_header">Our Features</h1>
+        <div class="feature_row">
+                <div class="feature_item_content">
+                    <span class="feature_item_title">01</span>
+                    <span class="feature_item_detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+                    </span>
+                </div>
+           
+                <div class="feature_item_content">
+                    <span class="feature_item_title">02</span>
+                    <span class="feature_item_detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+                    </span>
+                </div>
+            <div class="col-12 feature_item">
+                <div class="feature_item_content">
+                    <span class="feature_item_title">03</span>
+                    <span class="feature_item_detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Feature Section End -->
 
+
+    <!-- Road Map Section -->
+
+    <div class="road_map_section container" id="roadMapSection">
+        <h1 class="road_map_header">Our Road Map</h1>
+        <div class="road_map_row">
+            <div class="col-12 road_map_item">
+                    <p class="road_map_item_detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+                    </p>
+                    <div >
+                        <img src="./assets/icons/down-arrow.png" class="road_map_item_icon" alt="">
+                    </div>
+            </div>
+            <div class="col-12 road_map_item">
+                <p class="road_map_item_detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+                </p>
+                <div >
+                    <img src="./assets/icons/down-arrow.png" class="road_map_item_icon" alt="">
+                </div>
+
+        </div>
+        <div class="col-12 road_map_item">
+            <p class="road_map_item_detail">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+            </p>
+            <div >
+                <img src="./assets/icons/down-arrow.png" class="road_map_item_icon" alt="">
+            </div>
+
+    </div>
+    <div class="col-12 road_map_item">
+        <p class="road_map_item_detail">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque impedit odit velit.
+        </p>
+        <div >
+            <img src="./assets/icons/down-arrow.png" class="road_map_item_icon" alt="">
+        </div>
+
+</div>
+        </div>
+    </div>
+
+    <!-- Road Map Section End -->
 
 
     <!-- Blog Section -->
@@ -423,7 +402,7 @@
         <div class="row blog_row">
             <!-- Blog Item -->
             <div class="col-md-6 col-sm-12 blog_item all">
-                <h2 class="blog_title">Hel Title</h2>
+                    <h2 class="blog_title">Hel Title</h2>
                 <img src="./assets/images/Blog.png" alt="blog" class="blog_img">
                 <div class="blog_item_detail">
                     <p class="blog_description">
@@ -565,8 +544,9 @@
     </script>   
     <!-- Blog Section End -->
 
-     <!-- Contact Form -->
 
+
+     <!-- Contact Form -->
      <div class="contact_form_section container" >
         <div class="row contact_bg">
             <div class=" col-lg-6 col-sm-12">
@@ -599,7 +579,6 @@
     <!-- Contact Form End -->
 
     <!-- Footer Section -->
-
     <footer class="footer_section container-fluid py-5">
         <div class="row footer_content">
             <div class="col-md-3">
