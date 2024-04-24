@@ -1,8 +1,6 @@
 .service_section{
     padding-left: 13rem;
     padding-right: 13rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .service_item{
@@ -52,8 +50,6 @@
     .service_section{
         padding-left: 3rem;
         padding-right: 3rem;
-        margin-top: 50px;
-        margin-bottom: 50px;
     }
 
 
@@ -68,5 +64,9 @@
 .sec_service_row{
     margin-top: 0px;
   }
+  .service_section{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
     
 }

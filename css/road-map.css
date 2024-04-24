@@ -10,7 +10,8 @@
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin: 30px;
+    color: #fd0c03;
 
 }
 
@@ -19,7 +20,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px
 }
 
 .road_map_item_detail{
@@ -28,14 +28,24 @@
 
 .road_map_item_icon{
     width: 60px;
+    margin-bottom: 20px
+
 }
 
 @media screen and (max-width: 992px) {
     .road_map_section{
         padding-left: 3rem;
         padding-right: 3rem;
-        margin-top: 50px;
-        margin-bottom: 20px;
+       
+    }
+    .road_map_item_icon{
+        width: 50px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .road_map_section{
+        padding-left: 1rem;
+        padding-right: 1rem;
        
     }
     .road_map_item_icon{

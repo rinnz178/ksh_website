@@ -1,8 +1,6 @@
 .contact_form_section{
     padding-left: 13rem;
     padding-right: 13rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
    
 }
 
@@ -20,6 +18,7 @@
     font-weight: 700;
     margin-bottom: 30px;
     padding-top: 20px;
+    color: #fd0c03;
 }
 
 .contact_form{
@@ -59,8 +58,25 @@
     .contact_form_section{
         padding-left: 3rem;
         padding-right: 3rem;
-        margin-top: 20px;
-        margin-bottom: 20px;
+       
+    }
+
+    .contact_bg{
+        background-color: transparent;
+    }
+
+    .contact_form{
+       background-color: #ffffff;
+       margin-bottom: 20px;
+       border-radius: 20px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .contact_form_section{
+        padding-left: 1rem;
+        padding-right: 1rem;
        
     }
 

@@ -1,8 +1,6 @@
 .our_goal_section{
     padding-left: 13rem;
     padding-right: 13rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 .our_goal_left_section{
@@ -52,6 +50,8 @@
     .our_goal_section{
         padding-left: 3rem;
         padding-right: 3rem;
+        margin-top: 50px;
+
     }
     .our_goal_left_section{
         display: flex;
@@ -82,13 +82,13 @@
 
 @media (max-width: 576px) {
     .our_goal_section{
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
        
     }
     .our_goal_right_section{
         background-color: #ffffff;
-        padding: 40px;
+        padding: 25px;
         border-radius: 20px;
        
     }
@@ -109,7 +109,7 @@
     }
     
     .our_goal_header{
-        font-size: 30px;
+        font-size: 27px;
         font-weight: bold;
         text-align: center;
         color: #fd0c03;

@@ -8,8 +8,8 @@
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 30px;
+    color: #fd0c03;
 }
 
 .blog_img{
@@ -33,6 +33,7 @@
 
 .blog_item_detail{
     margin-top: 20px;
+    text-align: center;
 }
 
 .blog_pagination{
@@ -52,6 +53,15 @@
     .blog_section{
         padding-left: 3rem;
         padding-right: 3rem;
+       
+    }
+
+}
+
+@media (max-width: 576px) {
+    .blog_section{
+        padding-left: 1rem;
+        padding-right: 1rem;
        
     }
 

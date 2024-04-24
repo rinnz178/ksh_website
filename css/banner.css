@@ -45,11 +45,13 @@
 
 @media (max-width: 576px) {
     .top_title{
-        font-size: 20px;
+        font-size: 17px;
+        padding: 10px 0px 0px 10px;
+        
        
     }
     .center_title{
-        font-size: 40px;
+        font-size: 35px;
        
     }
 }

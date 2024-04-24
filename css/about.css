@@ -1,15 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
 .about_us_section{
     padding-left: 13rem;
     padding-right: 13rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
 
 }
 .about_us_header{
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin: 30px;
+    color: #fd0c03;
+
 
 }
 .about_us_img{
@@ -45,8 +48,6 @@
     .about_us_section{
         padding-left: 3rem;
         padding-right: 3rem;
-        margin-top: 20px;
-    margin-bottom: 20px;
     }
     .about_us_img{
         width: 80%;
@@ -57,5 +58,46 @@
         flex-direction: column;
         margin-top: 20px;
         align-items: center;
+    }
+    .about_us_chairman{
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .about_us_btn{
+        background-color: #fd0c03;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        border:none;
+        border-radius: 30px;
+    }
+    .about_us_btn_container{
+        justify-content: center;
+        display: flex;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .about_us_section{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .about_us_img{
+        width: 100%;
+    }
+    .about_us_right{
+        justify-content: start;
+        /* display: flex; */
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .about_us_header{
+        font-weight: bolder;
+        font-size: 27px;
+        margin: 25px;
     }
 }
