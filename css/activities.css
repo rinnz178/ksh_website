@@ -1,0 +1,30 @@
+.activities_section{
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+.activities_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #fd0c03;
+}
+.activities_text_detail{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.activities_row{
+    
+}
+
+.activities_item_content{
+    border: #fd0c03 solid 2px;;
+}
+
+.activities_img{
+    width: 90px;
+}

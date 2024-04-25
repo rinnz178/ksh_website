@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .left_courses_text{
@@ -32,6 +32,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
+
 }
 
 @media screen and (max-width: 992px) {
