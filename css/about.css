@@ -22,7 +22,6 @@ html {
     justify-content: start;
     /* display: flex; */
     flex-direction: column;
-    margin-top: 50px;
     align-items: center;
 }
 .about_us_chairman{
