@@ -4,8 +4,8 @@ html {
 .about_us_section{
     padding-left: 13rem;
     padding-right: 13rem;
-
 }
+
 .about_us_header{
     text-align: center;
     font-size: 30px;
@@ -98,6 +98,8 @@ html {
     .about_us_header{
         font-weight: bolder;
         font-size: 27px;
-        margin: 25px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
     }
 }
