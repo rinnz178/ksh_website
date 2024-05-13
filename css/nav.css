@@ -81,3 +81,21 @@
 
     }
 }
+
+.language_btn{
+    background-color: #ffffff;
+    border-color: #fd0c03;
+    border-width: 2px;
+    color:#fd0c03;
+}
+
+.language_btn:hover{
+    background-color: #ffffff;
+    border-color: #fd0c03;
+    border-width: 2px;
+}
+.language_btn:active{
+    background-color: #ffffff;
+    border-color: #fd0c03;
+    border-width: 2px;
+}

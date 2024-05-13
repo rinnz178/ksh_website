@@ -28,10 +28,13 @@
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/road-map.css">
   <link rel="stylesheet" href="css/activities.css">
+  <link rel="stylesheet" href="css/custom-dropdown.css">
+
 
 
 
   <script src="js/main.js"></script>
+  <script src="./js/translate.js"></script>
 
   <title>KSH</title>
 </head>
@@ -84,6 +87,20 @@
                 </button>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <select id="languageSelect" onchange="changeLanguage()">
+                  <option value="en" style="background-image: url('./assets/icons/en.png');">
+                    EN
+                  </option>
+                  <option value="jp"> 
+                    <img src="./assets/icons/en.png"/>
+                    JP
+                  </option>
+                  <!-- Add more language options as needed -->
+              </select>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -93,7 +110,7 @@
 
   <!-- Banner Section -->
   <div class="banner d-flex justify-content-center align-items-center flex-column ">
-    <p class="top_title">Your Japanese Language Journey Matters to Us</p>
+    <p class="top_title" id="top_title">Your Japanese Language Journey Matters to Us</p>
     <p class="center_title">"Boost Your Japanese Language Skills and Job Opportunities."​</p>
     <a href="#contactSection">
       <button class="banner_contact_btn">Contact Us</button>

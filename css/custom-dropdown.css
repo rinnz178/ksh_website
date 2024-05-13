@@ -1,0 +1,37 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropdown select {
+    background-color: #f9f9f9;
+            border: none;
+            color: #000;
+            padding: 8px 40px 8px 20px; /* Adjust padding for icon */
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('../assets/icons/en.png'); /* URL of your image icons */
+            background-repeat: no-repeat;
+            background-position: 95% center;
+}
+
+/* Style for the dropdown arrow */
+.dropdown::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Style for the dropdown options */
+.dropdown select option {
+    padding: 10px 25px;
+    font-size: 16px;
+}
