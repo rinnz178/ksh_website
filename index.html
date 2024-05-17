@@ -34,7 +34,7 @@
 
 
   <script src="js/main.js"></script>
-  <script src="./js/translate.js"></script>
+  <script src="js/translate.js"></script>
 
   <title>KSH</title>
 </head>
@@ -65,24 +65,24 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-1  align-items-center nav_menu">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" id="home" aria-current="page" href="#">Home</a>
             </li>
            
             <li class="nav-item">
-              <a class="nav-link" href="#serviceSection">Services</a>
+              <a class="nav-link" id="nav_service" href="#serviceSection">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#courseSection">Courses</a>
+              <a class="nav-link" id="nav_course" href="#courseSection">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#blogSection">Blog</a>
+              <a class="nav-link" id="nav_blog" href="#blogSection">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutUsSection">About</a>
+              <a class="nav-link" id="nav_about" href="#aboutUsSection">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contactSection">
-                <button class="btn btn-danger contact_btn">
+                <button class="btn btn-danger contact_btn" id="nav_contact">
                   Contact
                 </button>
               </a>
@@ -111,9 +111,9 @@
   <!-- Banner Section -->
   <div class="banner d-flex justify-content-center align-items-center flex-column ">
     <p class="top_title" id="top_title">Your Japanese Language Journey Matters to Us</p>
-    <p class="center_title">"Boost Your Japanese Language Skills and Job Opportunities."​</p>
+    <p class="center_title" id="center_title">"Boost Your Japanese Language Skills and Job Opportunities."​</p>
     <a href="#contactSection">
-      <button class="banner_contact_btn">Contact Us</button>
+      <button class="banner_contact_btn" id="banner_contact_btn">Contact Us</button>
     </a>
   </div>
   <!-- Banner Section End -->
@@ -121,18 +121,18 @@
   <!-- About Us Section -->
 
   <div class="about_us_section container" id="aboutUsSection">
-    <h1 class="about_us_header">About Us</h1>
+    <h1 class="about_us_header" id="about_us">About Us</h1>
     <div class="about_us_body row">
       <div class="about_us_left col-lg-5 col-sm-12">
-        <img src="./assets/images/chair_man.jpg" alt="about-us" class="about_us_img">
+        <img src="./assets/images/chair_man.jpg" alt="about-us" class=" ">
       </div>
       <div class="about_us_right col-lg-7 col-sm-12">
-        <h1 class="about_us_chairman">Chairman</h1>
-        <p class="about_us_description">
+        <h1 class="about_us_chairman" id="chairman">Chairman</h1>
+        <p class="about_us_description" id="about_us_description">
           Established on December 14, 2011, under the leadership of Representative Director Daw Khin Su Hlaing, the company boasts a robust profile in various sectors. Registered under the Company registration number 119314933 with DICA and holding an Overseas Staffing Agency License registration number 85/2013, the company has grown to accommodate 15 dedicated employees. Their diverse business portfolio includes overseas staffing services, Japanese-language education, tour services, nursing care vocational training, trainee training, apprentice training, and technical intern training. With a commitment to excellence and a focus on nurturing talent, the company plays a pivotal role in facilitating employment opportunities abroad while also fostering skill development through comprehensive training programs.
         </p>
         <a href="#contactSection" class="about_us_btn_container">
-          <button class="about_us_btn">
+          <button class="about_us_btn" id="get_in_touch">
             Get In Touch
           </button>
         </a>
@@ -152,10 +152,10 @@
           </p>
         </div>
         <div class="d-none d-lg-block">
-          <p class="our_goal_description">
+          <p class="our_goal_description" id="goal_description">
             Enabling students to master Japanese language proficiency.
           </p>
-          <h1 class="our_goal_header ">Our Goals</h1>
+          <h1 class="our_goal_header" id="our_goals">Our Goals</h1>
         </div>
       </div>
       <div class="our_goal_right_section col-lg-7 col-sm-12 ">
@@ -165,8 +165,8 @@
               <img src="./assets/icons/handshake.png" alt="goal" class="goal_img">
             </div>
             <div class="col-10 goal_item_text">
-              <p>
-                Kinsu Line Service Co., Ltd. helps young people in Myanmar to get active and find
+              <p id="goal_item1">
+                Khin Su Hlaing Service Co., Ltd. helps young people in Myanmar to get active and find
                 employment in their professional field.
               </p>
             </div>
@@ -176,9 +176,9 @@
               <img src="./assets/icons/dispatch.png" alt="goal" class="goal_img">
             </div>
             <div class="col-10 goal_item_text">
-              <p>
+              <p id="goal_item2">
                 The number of young people dispatched as trainees and technical interns through our
-                company's dispatch service is also increasing every year
+                company's dispatch service is also increasing every year.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@
               <img src="./assets/icons/activities.png" alt="goal" class="goal_img">
             </div>
             <div class="col-10 goal_item_text">
-              <p>
+              <p id="goal_item3">
                 Our company is actively involved in development activities in our home country of
                 Myanmar, with the aim of promoting understanding and friendship.
               </p>
@@ -198,7 +198,7 @@
               <img src="./assets/icons/teacher.png" alt="goal" class="goal_img">
             </div>
             <div class="col-10 goal_item_text">
-              <p>
+              <p id="goal_item4">
                 We have trained technical intern trainees and will continue to work hard to develop
                 technical intern trainees.
               </p>
@@ -212,14 +212,14 @@
 
   <!-- Service Section -->
   <div class="service_section container" id="serviceSection">
-    <h1 class="about_us_header">Our Services</h1>
+    <h1 class="about_us_header" id="our_services">Our Services</h1>
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <span onclick="toggleService('service1')">
           <div class="service_item">
             <div class="service_item_right">
               <img src="./assets/icons/customer-service.png" alt="service" class="service_icon">
-              <span class="service_title">Language School</span>
+              <span class="service_title" id="language_school">Language School</span>
             </div>
             <a>
               <img src="./assets/icons/arrow-down-sign-to-navigate.png" alt="see_more" class="see_more_icon">
@@ -228,8 +228,8 @@
         </span>
 
         <div id="service1" class="content">
-          <div class="card card-body service_detail">
-            Explore Japanese language and culture at our school! Our expert instructors ensure effective learning in a supportive environment. Join us and start your Japanese language journey today!
+          <div class="card card-body service_detail" id="school_service_detail">
+            Learn Japanese language and culture with us! Our expert instructors provide effective learning in a supportive environment. Please join us and start your Japanese journey today!
           </div>
         </div>
 
@@ -239,7 +239,7 @@
           <div class="service_item">
             <div class="service_item_right">
               <img src="./assets/icons/customer-service.png" alt="service" class="service_icon">
-              <span class="service_title">Job Training</span>
+              <span class="service_title" id="job_training">Job Training</span>
             </div>
 
             <a href="#"><img src="./assets/icons/arrow-down-sign-to-navigate.png" alt="see_more"
@@ -247,7 +247,7 @@
           </div>
         </span>
         <div id="service2" class="content">
-          <div class="card card-body service_detail">
+          <div class="card card-body service_detail" id="job_service_detail" >
             Join our job training program for practical skills and career success! Led by experts, our tailored courses prepare you for the workplace. Start your journey with us today!
           </div>
         </div>
@@ -260,7 +260,7 @@
           <div class="service_item ">
             <div class="service_item_right">
               <img src="./assets/icons/customer-service.png" alt="service" class="service_icon">
-              <span class="service_title">Interview Preparation</span>
+              <span class="service_title" id="interview_preparation">Interview Preparation</span>
             </div>
 
             <a href="#"><img src="./assets/icons/arrow-down-sign-to-navigate.png" alt="see_more"
@@ -268,7 +268,7 @@
           </div>
         </span>
         <div id="service3" class="content">
-          <div class="card card-body service_detail">
+          <div class="card card-body service_detail" id="interview_service_detail">
             Welcome to our interview preparation service! We'll help you shine with mock interviews and expert tips. Get ready to nail that job interview!
           </div>
         </div>
@@ -278,7 +278,7 @@
           <div class="service_item ">
             <div class="service_item_right">
               <img src="./assets/icons/customer-service.png" alt="service" class="service_icon">
-              <span class="service_title">Agency</span>
+              <span class="service_title" id="agency">Agency</span>
             </div>
 
             <a href="#"><img src="./assets/icons/arrow-down-sign-to-navigate.png" alt="see_more"
@@ -286,7 +286,7 @@
           </div>
         </span>
         <div id="service4" class="content">
-          <div class="card card-body service_detail">
+          <div class="card card-body service_detail" id="agency_service_detail">
             Welcome to our agency! We offer tailored solutions and expert support to help you succeed. Let's work together to achieve your goals!
           </div>
         </div>
@@ -297,21 +297,21 @@
 
   <!-- Courses Section -->
   <div class="course_section container" id="courseSection">
-    <h1 class="about_us_header">Our Courses</h1>
+    <h1 class="about_us_header" id="our_courses">Our Courses</h1>
     <div class="row courses_row">
       <div class="col-lg-12 col-sm-12 courses_left">
         <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
         <div class="left_courses_text">
-          <h4 class="courses_title">Garment Industry</h4>
-          <p class="courses_text_detail">
+          <h4 class="courses_title" id="garment_industry">Garment Industry</h4>
+          <p class="courses_text_detail" id="garment_industry_detail">
             Our garment industry teaching training school is the perfect place to kickstart your career in fashion. Led by industry experts, our comprehensive program covers every aspect of garment production, from design to manufacturing. You'll learn essential skills like pattern-making, sewing techniques, and quality control in our hands-on workshops. Our experienced instructors will guide you through the latest trends and technologies in the fashion industry, preparing you for a successful career. With our emphasis on creativity and innovation, you'll graduate ready to make your mark in the exciting world of fashion design and production.
           </p>
         </div>
       </div>
       <div class="col-lg-12 col-sm-12 courses_right">
         <div class="right_courses_text">
-          <h4 class="courses_title">Food Service</h4>
-          <p class="courses_text_detail">
+          <h4 class="courses_title" id="food_service">Food Service</h4>
+          <p class="courses_text_detail" id="food_service_detail">
             Our food service teaching training school is a premier institution dedicated to honing culinary talent and excellence in the hospitality sector. Led by experienced chefs, we cover everything from basic cooking skills to advanced techniques and kitchen management. Through hands-on experience and internships, we prepare you for roles like chef, manager, or entrepreneur. With us, you'll gain the skills and confidence to succeed in the exciting field of food service.
           </p>
         </div>
@@ -320,16 +320,16 @@
       <div class="col-lg-12 col-sm-12 courses_left">
         <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
         <div class="left_courses_text">
-          <h4 class="courses_title">Transportation Company</h4>
-          <p class="courses_text_detail">
+          <h4 class="courses_title" id="transportation_company">Transportation Company</h4>
+          <p class="courses_text_detail" id="transportation_company_detail">
             Our transportation company training school is where individuals learn the ropes of the transportation industry. Led by experienced instructors, we cover everything from driving techniques to customer service. With hands-on training and a focus on safety and professionalism, students are prepared for roles like bus drivers, truck drivers, or logistics coordinators. We equip them with the skills and confidence needed to excel in the transportation sector.
           </p>
         </div>
       </div>
       <div class="col-lg-12 col-sm-12 courses_right">
         <div class="right_courses_text">
-          <h4 class="courses_title">Dyeing Industry</h4>
-          <p class="courses_text_detail">
+          <h4 class="courses_title" id="dyeing_industry">Dyeing Industry</h4>
+          <p class="courses_text_detail" id="dyeing_industry_detail">
             Our dyeing industry training school is your gateway to mastering the art and science of dyeing. Led by seasoned professionals, our program covers everything from color theory to practical techniques. Through hands-on training in our state-of-the-art facility, you'll learn to create vibrant colors and achieve desired results on different fabrics. With a focus on sustainability, we teach eco-friendly practices to minimize environmental impact. Whether you're interested in textile manufacturing or fashion design, our school prepares you for a successful career in the dyeing industry.
           </p>
         </div>
@@ -339,8 +339,8 @@
     <div class="col-lg-12 col-sm-12 courses_left">
       <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
       <div class="left_courses_text">
-        <h4 class="courses_title">Bread Manufacturing Company</h4>
-        <p class="courses_text_detail">
+        <h4 class="courses_title" id="manufacturing_company">Bread Manufacturing Company</h4>
+        <p class="courses_text_detail" id="manufacturing_company_detail">
           Our bread manufacturing company doubles as a training school for aspiring bakers. Led by experienced professionals, our program covers the entire bread-making process, from dough mixing to baking and packaging. With hands-on experience and a focus on quality and consistency, students graduate equipped for careers in bread manufacturing or artisanal baking.
 
         </p>
@@ -348,8 +348,8 @@
     </div>
     <div class="col-lg-12 col-sm-12 courses_right">
       <div class="right_courses_text">
-        <h4 class="courses_title">Agriculture and Livestock Indudtry</h4>
-        <p class="courses_text_detail">
+        <h4 class="courses_title" id="livestock_indudtry">Agriculture and Livestock Indudtry</h4>
+        <p class="courses_text_detail" id="livestock_indudtry_detail">
           Our agriculture and Livestock Industry training school provides comprehensive education in farming and animal husbandry. Led by experienced professionals, our program covers crop cultivation, animal care, and farm management. With a focus on sustainability and innovation, students learn modern farming practices and agricultural technologies. Additionally, they gain business skills for entrepreneurial endeavors in the agriculture industry. Graduates are well-prepared for diverse careers in farming, agribusiness, and livestock management.
         </p>
       </div>
@@ -358,20 +358,29 @@
     <div class="col-lg-12 col-sm-12 courses_left">
       <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
       <div class="left_courses_text">
-        <h4 class="courses_title">Nursing Care</h4>
-        <p class="courses_text_detail">
+        <h4 class="courses_title" id="nursing_care">Nursing Care</h4>
+        <p class="courses_text_detail" id="nursing_care_detail">
           Our nursing care training school offers a practical and compassionate education for aspiring caregivers. Led by experienced healthcare professionals, our program covers essential skills like patient care, medical procedures, and healthcare technology. With hands-on training and a focus on empathy, communication, and cultural sensitivity, graduates are prepared to excel as licensed practical nurses (LPNs) or registered nurses (RNs) in various healthcare settings.
         </p>
       </div>
+    </div>
+    <div class="col-lg-12 col-sm-12 courses_right">
+      <div class="right_courses_text">
+        <h4 class="courses_title" id="construction_industry">Construction Industry</h4>
+        <p class="courses_text_detail" id="construction_industry_detail">
+          Our training school specializes in the construction industry, offering practical and theoretical education. Experienced professionals teach the latest techniques and safety management. We provide courses for all skill levels, supporting your career growth. Join us to succeed in the construction industry.
+        </p>
+      </div>
+      <img src="https://via.placeholder.com/300" alt="course" class="courses_img">
     </div>
   </div>
   <!-- Courses Section End -->
 
     <!-- Activities Section -->
     <div class="activities_section container" id="activitiesSection">
-      <h1 class="activities_header">Our Activities</h1>
+      <h1 class="activities_header" id="our_activities">Our Activities</h1>
       <div class="activities_description">
-        <p class="activities_text_detail">
+        <p class="activities_text_detail" id="activities_detail">
           Our activities are centered on improving students' language skills. We provide free job introductions and interviews for 6 months.
         </p>
       </div>
@@ -379,7 +388,7 @@
 
         <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
+           <span class="activities_text" id="activities1">
              350 people in garment industry
            </span>
          </div>
@@ -387,52 +396,52 @@
 
         <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities2">
+            30 people in food companies
            </span>
          </div>
 
 
          <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities3">
+            40 people in construction industry
            </span>
          </div>
          
 
          <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities4">
+            10 people in transportation company
            </span>
          </div>
 
         <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities5">
+            10 people in the dyeing industry
            </span>
          </div>
 
          <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities6">
+            7 people in bread manufacturing company
            </span>
          </div>
 
          <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities7">
+            Agriculture and livestock industry 15 people
            </span>
          </div>
 
          <div class="activities_item_content">
           <img src="./assets/icons/customer-service.png" class="activities_img" alt="">
-           <span class="activities_text">
-             350 people in garment industry
+           <span class="activities_text" id="activities8">
+            Nursing care 200 people
            </span>
          </div>
         
@@ -446,24 +455,24 @@
 
   <!-- Feature Section -->
   <div class="feature_section container" id="featureSection">
-    <h1 class="feature_header">Our Features</h1>
+    <h1 class="feature_header" id="our_features">Our Features</h1>
     <div class="feature_row">
       <div class="feature_item_content">
         <span class="feature_item_title">01</span>
-        <span class="feature_item_detail">
+        <span class="feature_item_detail" id="features_item1">
           We manage internships at Kinsu Line Service Co., Ltd. Get free job introductions and interviews for 6 months.
         </span>
       </div>
       <div class="feature_item_content">
         <span class="feature_item_title">02</span>
-        <span class="feature_item_detail">
+        <span class="feature_item_detail" id="features_item2">
           Selected apprentices get free pre-training and advanced training until departure, all at no cost.
         </span>
       </div>
       <div class="col-12 feature_item">
         <div class="feature_item_content">
           <span class="feature_item_title">03</span>
-          <span class="feature_item_detail">
+          <span class="feature_item_detail" id="features_item3">
             Trainees selected for interview receive practical training at a center like a Japanese workplace.
           </span>
         </div>
@@ -471,7 +480,7 @@
       <div class="col-12 feature_item">
         <div class="feature_item_content">
           <span class="feature_item_title">04</span>
-          <span class="feature_item_detail">
+          <span class="feature_item_detail" id="features_item4">
             Monitoring after dispatch
           </span>
         </div>
@@ -484,10 +493,10 @@
   <!-- Road Map Section -->
 
   <div class="road_map_section container" id="roadMapSection">
-    <h1 class="road_map_header">Employment introduction and interview procedures</h1>
+    <h1 class="road_map_header" id="road_map_title">Employment introduction and interview procedures</h1>
     <div class="road_map_row">
       <div class="col-12 road_map_item">
-        <p class="road_map_item_detail">
+        <p class="road_map_item_detail" id="road_map_detail1">
           Registered as an apprentice at Kinsu Line Service Limited Liability Co., Ltd.
         </p>
         <div>
@@ -495,7 +504,7 @@
         </div>
       </div>
       <div class="col-12 road_map_item">
-        <p class="road_map_item_detail">
+        <p class="road_map_item_detail" id="road_map_detail2">
           Daily job introduction and interview reports from Kinsu Line Service Co., Ltd.
         </p>
         <div>
@@ -504,7 +513,7 @@
 
       </div>
       <div class="col-12 road_map_item">
-        <p class="road_map_item_detail">
+        <p class="road_map_item_detail" id="road_map_detail3">
           Job introduction and interview
         </p>
         <div>
@@ -512,7 +521,7 @@
         </div>
       </div>
       <div class="col-12 road_map_item">
-        <p class="road_map_item_detail">
+        <p class="road_map_item_detail" id="road_map_detail4">
           Apprentices who are selected through employment introduction and interviews will enter into a corporate outsourcing contract with Kinsline Service Co., Ltd. regarding the overseas temporary staffing business.
         </p>
       </div>
@@ -521,14 +530,14 @@
         <div>
           <img src="./assets/icons/down-arrow.png" class="road_map_item_icon" alt="">
         </div>
-        <p class="road_map_item_detail">
+        <p class="road_map_item_detail" id="road_map_detail5">
           Apprentices selected through job introduction and interviews will participate in a 6- month vocational training course at KSH Japanese Language School.
       </div>
       <div class="col-12 road_map_item">
         <div>
           <img src="./assets/icons/down-arrow.png" class="road_map_item_icon" alt="">
         </div>
-        <p class="road_map_item_detail">
+        <p class="road_map_item_detail" id="road_map_detail6">
           Departing from Japan and finding employment in Japan
       </div>
     </div>
@@ -694,19 +703,19 @@
         <h2 class="contact_form_header" id="contactSection">Get In Touch</h2>
         <form class="contact_form ">
           <div class="form_group">
-            <label for="name">Name</label>
+            <label for="name" id="contact_name">Name</label>
             <input type="text" class="form-control" id="name" required>
           </div>
           <div class="form_group">
-            <label for="email">Email</label>
+            <label for="email" id="contact_email">Email</label>
             <input type="email" class="form-control" id="email" required>
           </div>
           <div class="form_group">
-            <label for="message">Message</label>
+            <label for="message" id="contact_message">Message</label>
             <textarea class="form-control" id="message" rows="5" required></textarea>
           </div>
           <div class="contact_btn_container">
-            <button class="contact_form_btn" type="submit">Submit Form</button>
+            <button class="contact_form_btn" type="submit" id="submit_form">Submit Form</button>
 
           </div>
         </form>
@@ -728,18 +737,18 @@
         <img src="./assets/icons/icon_logo.png" class="footer_logo" alt="">
       </div>
       <div class="col-md-3">
-        <h4>Call us</h4>
+        <h4 id="call_us">Call us</h4>
         <p>09-441290521</p>
         <p>09-5070668</p>
       </div>
       <div class="col-md-3">
-        <h4>Location</h4>
+        <h4 id="location">Location</h4>
         <p>No(123),Hlaing Township,Yangon</p>
       </div>
       <div class="col-md-3">
-        <h4>Opening hour</h4>
-        <p>Monday-Friday: 9am-5pm</p>
-        <p>Saturday-Sunday: Closed</p>
+        <h4 id="opening_hour">Opening hour</h4>
+        <p id="opening_day">Monday-Friday: 9am-5pm</p>
+        <p id="closing_day">Saturday-Sunday: Closed</p>
       </div>
 
     </div>
