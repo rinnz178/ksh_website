@@ -25,7 +25,7 @@
 
 .courses_img{
     border-radius: 6px;
-    width: 100%;
+    width: 36%;
 }
 
 .courses_right{
@@ -84,6 +84,10 @@
         margin-top: 20px;
     }
 
+    .courses_img{
+        border-radius: 6px;
+        width: 100%;
+    }
     .courses_right{
         display: flex;
         flex-direction: column-reverse;
